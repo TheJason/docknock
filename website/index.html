@@ -206,7 +206,7 @@
 
     function login(provider) {
       authModal.modal('hide');
-      chatRef.authWithOAuthPopup('password' /* or 'facebook', 'github, 'persona', 'password' */, function(error, authData) {
+      chatRef.authWithOAuthPopup('twitter' /* or 'facebook', 'github, 'persona', 'password' */, function(error, authData) {
   if (error) {
     console.log(error);
   }
